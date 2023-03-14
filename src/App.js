@@ -1,12 +1,16 @@
 import "./App.css";
-import About from "./Component/About/About";
+import Projects from "./Component/Projects/Projects";
 import Nav from "./Component/Nav/Nav";
+import Home from "./Component/Home/Home";
+import Contact from "./Component/Contact/Contact";
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <About />
+      <Home />
+      <Projects />
+      <Contact/>
     </div>
   );
 }

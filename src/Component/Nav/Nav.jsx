@@ -3,7 +3,10 @@ import "./Nav.css";
 export default function Nav() {
   return (
     <div>
-      <nav className="navbar fixed-top bg-transparent  navbar-expand-lg navbar-light bg-light">
+      <nav
+        id="navbar"
+        className="navbar fixed-top bg-transparent  navbar-expand-lg navbar-light bg-light"
+      >
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -19,12 +22,16 @@ export default function Nav() {
           <div className="collapse navbar-collapse " id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="#projects"
+                >
                   PROJECTS
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#projects">
                   CONTACT
                 </a>
               </li>
@@ -33,6 +40,7 @@ export default function Nav() {
                   className="nav-link text-dark mx-1 fs-5 fw-bolder"
                   target="_blank"
                   href="https://github.com/mrwan14"
+                  rel="noreferrer"
                 >
                   <i class="fa-brands fa-github-alt"></i>
                 </a>
@@ -40,6 +48,7 @@ export default function Nav() {
                   className="nav-link text-dark fs-5 fw-bolder"
                   target="_blank"
                   href="https://linkedin.com/in/marwan-abdelwahab-448593209"
+                  rel="noreferrer"
                 >
                   <i class="fa-brands fa-linkedin"></i>
                 </a>

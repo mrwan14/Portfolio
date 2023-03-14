@@ -27,8 +27,15 @@ export default function About() {
       </h6>
       <div className="d-flex justify-content-center my-4">
         {" "}
-        <button className=" btn btn-danger text-white border-5  ">
-          Download CV{" "}
+        <button type="submit" className=" btn btn-danger text-white border-5 ">
+          <a
+            className=" text-decoration-none text-light  "
+            href="https://docdro.id/YTXk9Dy"
+            download
+            target="_blank" rel="noreferrer"
+          >
+            CHECK CV
+          </a>
         </button>
       </div>
     </div>

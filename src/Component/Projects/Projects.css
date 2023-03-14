@@ -1,0 +1,159 @@
+.projects {
+  height: 120vh;
+}
+.title {
+  margin-top: 100px;
+}
+.main-title {
+  font-size: 60px;
+  font-family: cursive;
+  letter-spacing: 5px;
+}
+.shadow-title {
+  position: absolute;
+  top: 5px;
+  right: 41%;
+  color: antiquewhite;
+  font-size: 60px;
+  letter-spacing: 5px;
+  font-family: cursive;
+}
+.projects-slider {
+  position: absolute;
+  width: 80%;
+  left: 160px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: gainsboro 10px solid;
+  border-radius: 8px;
+}
+
+.carousel-caption {
+  position: absolute;
+  left: 100%;
+  transition: 0.2s;
+}
+.carousel-item:hover .carousel-caption {
+  display: block;
+  background-color: black;
+  opacity: 80%;
+  border-radius: 20px;
+  color: antiquewhite;
+  left: 210px;
+}
+.carousel-item img {
+  height: 800px;
+  transition: 1s;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.05);
+}
+.link {
+  font-size: large;
+  text-decoration: none;
+  color: aliceblue;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: slategrey;
+  border-radius: 5px;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+  .shadow-title {
+    right: 21%;
+  }
+  .projects-slider {
+    width: 100%;
+    left: 0px;
+  }
+  .carousel-item:hover .carousel-caption {
+    display: block;
+    background-color: black;
+    opacity: 80%;
+    border-radius: 20px;
+    width: 100%;
+    color: antiquewhite;
+    left: 0px;
+  }
+  .carousel-item img{
+    height: 500px;
+  }
+}
+@media (min-width: 577px) and (max-width: 767px) {
+  .shadow-title {
+    right: 26%;
+  }
+  .projects-slider {
+    width: 95%;
+    left: 15px;
+  }
+  .carousel-item:hover .carousel-caption {
+    display: block;
+    background-color: black;
+    opacity: 80%;
+    border-radius: 20px;
+    width: 100%;
+    color: antiquewhite;
+    left: 0px;
+  }
+  .carousel-item img{
+    height: 550px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .shadow-title {
+    right: 32%;
+  }
+  .projects-slider {
+    width: 90%;
+    left: 35px;
+  }
+  .carousel-item:hover .carousel-caption {
+    display: block;
+    background-color: black;
+    opacity: 80%;
+    border-radius: 20px;
+    width: 100%;
+    color: antiquewhite;
+    left: 0px;
+  }
+  .carousel-item img{
+    height: 650px;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .shadow-title {
+    right: 36%;
+  }
+  .projects-slider {
+    width: 87%;
+    left: 65px;
+  }
+  .carousel-item:hover .carousel-caption {
+    display: block;
+    background-color: black;
+    opacity: 80%;
+    border-radius: 20px;
+    width: 100%;
+    color: antiquewhite;
+    left: 0px;
+  }
+  .carousel-item img{
+    height: 750px;
+  }
+}
+
+@media (min-width: 1200) {
+  .shadow-title {
+    right: 41%;
+  }
+  .carousel-item img{
+    height: 800px;
+  }
+}
